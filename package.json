@@ -1,0 +1,16 @@
+{
+  "name": "info-bundling",
+  "description": "A small app to collect information via tcp sockets",
+  "version": "0.0.1",
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "author": "Theo Pack <tf.pack@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:FuriKuri/info-bundling.git"
+  },
+  "main": "./lib/index"
+}
