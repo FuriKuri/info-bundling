@@ -2,7 +2,9 @@
   "name": "info-bundling",
   "description": "A small app to collect information via tcp sockets",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "cli-color": "^0.3.2"
+  },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
   },
