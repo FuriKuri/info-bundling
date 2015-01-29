@@ -3,7 +3,8 @@
   "description": "A small app to collect information via tcp sockets",
   "version": "0.0.1",
   "dependencies": {
-    "cli-color": "^0.3.2"
+    "cli-color": "^0.3.2",
+    "jetty": "^0.2.1"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
