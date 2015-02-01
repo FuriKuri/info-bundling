@@ -1,7 +1,7 @@
 {
   "name": "info-bundling",
   "description": "A small app to collect information via tcp sockets",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "dependencies": {
     "cli-color": "^0.3.2",
     "jetty": "^0.2.1"
