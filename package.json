@@ -4,7 +4,8 @@
   "version": "0.2.4",
   "dependencies": {
     "cli-color": "^0.3.2",
-    "jetty": "^0.2.1"
+    "jetty": "^0.2.1",
+    "node-notifier": "^4.1.0"
   },
   "bin": {
     "info-bundling": "cli.js"
