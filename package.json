@@ -5,6 +5,7 @@
   "dependencies": {
     "cli-color": "^0.3.2",
     "jetty": "^0.2.1",
+    "meow": "^3.0.0",
     "node-notifier": "^4.1.0"
   },
   "bin": {
