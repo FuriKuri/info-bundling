@@ -8,7 +8,8 @@ var cli = meow({
     '  info-bundling <options>',
     '',
     'Options',
-    '  --port <port>    Port which the server is listen to. Default port is 1337.'
+    '  --port <port>          Port which the server is listen to. Default port is 1337.',
+    '  --refresh <seconds>    Refresh interval in seconds.'
   ].join('\n')
 });
 var port = 1337;
@@ -16,4 +17,4 @@ if (cli.flags.port) {
   port = cli.flags.port;
 }
 console.log('Starting standalone server on port ' + port + ' ...');
-new Server().startServer(port);
+new Server(cli.flags).startServer(port);
