@@ -9,7 +9,8 @@ var cli = meow({
     '',
     'Options',
     '  --port <port>          Port which the server is listen to. Default port is 1337.',
-    '  --refresh <seconds>    Refresh interval in seconds.'
+    '  --refresh <seconds>    Refresh interval in seconds.',
+    '  --notify <true/false>  Enable/disable notifications. Default is true'
   ].join('\n')
 });
 var port = 1337;
